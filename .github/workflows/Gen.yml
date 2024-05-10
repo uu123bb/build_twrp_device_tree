@@ -10,7 +10,7 @@ on:
       IMG:
         description: 'IMG直链'
         required: true
-        default: ''
+        default: 'https://120-232-77-34.pd1.123pan.cn:30443/download-cdn.123pan.cn/123-781/5ff8c6f1/1817957955-0/5ff8c6f12d42ea2d9e4e64b41aafdf0d/c-m17?v=5&t=1715433363&s=1715433363dd3f6d3a48537ce9f7a9508302a42805&r=FSVTRO&bzc=2&bzs=313831333534353630323a32393434303630333a33333535343433323a31383133353435363032&filename=recovery_nopatch_PDBM00.bin&x-mf-biz-cid=274431e6-ec9a-4d28-b02a-62b2e7cf6728-584000&auto_redirect=0&ndcp=1&cache_type=1&xmfcid=1b288bed-e8f7-40e6-9f27-70dea278c1ae-0-9eed82220'
 jobs:
   build:
     runs-on: ubuntu-latest
